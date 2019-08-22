@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Isla de Margarita</title>
+        <!--Estilos CSS-->
+        <link rel="stylesheet" href="css/styles.css">
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+      <!--Mis Scripts-->
+      <script type="text/javascript" src="js/contacto.js"></script>
+            
+    </head>
+    <body>
+        <section id="global">
+            <!--Cabecera-->
+            <header>
+                <div><img src="img/logo1.png" title="Logo"></div>
+            
+               <div class="clearfix"></div>
+                <nav id="menu">
+                    <ul>
+                        <li><a href="index.html"class="transicion">Inicio</a></li>
+                        <li><a href="ver.html"class="transicion">Sitios que ver</a></li>
+                        <li><a href="https://www.venezuelatuya.com/hoteles/margarita.htm">Donde quedarte</a></li>
+                        <li><a href="contacto.html"class="transicion">Contacto</a></li>
+                    </ul>
+                </nav>
+            </header>    
+            
+
+            <!--Contenid-->
+            <section id="content">
+                <div id="box">
+                    <!--Cargar formulario-->
+                    <h2>Contacto</h2>
+                    <form action="" method="POST" id="form_contact">
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" data-validation="alphanumeric">
+
+                        <label for="surname">Apellidos</label>
+                        <input type="text" name="surname" data-validation="alphanumeric">
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" data-validation="email">
+
+                        <label for="sex">Sexo</label>
+                        <select name="sex" data-validation="required">
+                            <option value="men">Hombre</option>
+                            <option value="woman">Mujer</option>
+                        </select>
+                        <label for="date">Fecha de nacimiento</label>
+                        <input type="text" name="date" data-validation="date" data-validation-format="dd/mm/yyyy">
+
+                        <label for="years">Edad</label>
+                        <input type="number" name="years" data-validation="number">
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section>
+                   
+                <aside id="contacto">
+                     
+                     <br>
+                        
+                        <div class="card mb-3">
+                               <div class="card-body">
+                                    <h3>Cocina</h3>
+                                    <hr>
+                                    <br>
+                                  <h4 class="card-title">#Platodeldia</h4>
+                                  <p class="card-text">Recibí un correo donde me pedían la receta para hacer nuestras típicas hallaquitas de maíz, esas que acompañan los pollos en brasas o se presente en desayunos, parrillas o festejos.</p>
+                                 </div>
+                                <img src="img/hallaquitas_de_maiz.jpg" class="card-img-top" alt="...">
+                              </div>
+                              <br>
+                              <div class="card">
+                                
+                                <div class="card-body">
+                                    <h3>Geografia y Naturaleza</h3>
+                                    <hr>
+                                    <br>
+                                  <h4  class="card-title">#Lugardeldia</h4>
+                                  <p class="card-text">Las Islas o Región Insular, corresponden al estado Nueva Esparta y a las Dependencias Federales. Su ubicación está situada al norte del país, abarcando desde la isla de Patos, la más oriental a 61º 51’ longitud oeste, hasta el archipiélago de Los Monjes</p>
+                                </div>
+                                <img src="img/nvaesparta250.jpg" class="card-img-top" alt="...">
+                              </div> 
+                              
+               
+                </aside>
+
+
+            </section>
+                
+                <div class="clearfix"></div>
+           
+           
+                
+        
+        <footer>
+
+            La bella Isla de Margarita
+
+            <a href="#" class="subir">Ir arriba</a>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+
+
+    </body>
+
+</html>
