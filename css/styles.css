@@ -44,6 +44,10 @@
 	padding-right: 30px;
 }
 
+#menu a:hover {
+	background-color: rgb(44, 44, 34);
+  }
+
 #posts{
 	width: 60%;
 	float: left;
